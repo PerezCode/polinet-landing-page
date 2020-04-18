@@ -2,67 +2,236 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="./css/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="icon" href="./favicon.jpeg" type="image/jpeg">
-  <link rel="stylesheet" href="./css/bootstrap-4.4.1-dist/css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <title>Conoce PoliNet</title>
 </head>
 <body>
-  
-
-  <!--seccion de  todo el formulario-->
-  <section class="formulario">
-
-    <div class="container">
-
-      <!--fila para el contactanos-->
-      <div class="titulo row my-4 justify-content-center"><h1>Contactanos</h1></div>
-    
-    <div class="col-12">
-
-<!--fila para las dos columnas del formulario-->
-    <div class="fila row">
-
-      <!--primera columna -->
-      <div class="columna-1 col-6 ">
-        <input class="d-block  mx-4" type="text" id="inputs" placeholder="Nombre completo">
-      
-        <label class="" for="tipo "></label>
-        <select name="" id="tipo-identificacion">
-          <option value="">Cedula ciudadania </option>
-          <option value="">Tarjeta de indentidad</option>
-          <option value="">Cedula de extranjeria</option>
-          <option value="">Pasaporte</option>
-        </select>
-        <input class="d-block  mx-4" type="text" id="inputs" placeholder="Numero identificacion">
-        
-        <label class="d-block" for="tipo identificacion"></label>
-        <select name="" id="genero">
-          <option value="">Genero</option>
-          <option value="">Femenino</option>
-          <option value="">Masculino</option>
-          <option value="">Otro</option>
-        </select>
+  <!--HEADER-->
+  <div class="container-fluid titulos-principales py-5 mb-3">
+    <div class="row">
+      <div class="col col-10 offset-1 mb-5">
+        <h1>Una nueva forma de interactuar en la U</h1>
+        <p class="mt-2">Acceso a todo lo que pasa en nuestro Poli desde un mismo sitio.</p>
       </div>
-<!--final de primera columna -->
+      <div class="rectangulo1"></div>
+      <div class="rectangulo2"></div>
+    </div>
+  </div>
+  <!-- END HEADER -->
 
-<!--inicio de la segunda columna -->
-      <div class="columna-2 col-6  my-3">
-        <h10> fecha de nacimiento</h10>
-        <input class="d-block  mx-4"  type="date" id="fecha">
-          <input class="d-block mx-4" type="text" id="correo" placeholder="Correo electronico">
-        <input class="d-block  mx-4" type="text" id="inputs" placeholder="Asunto ">
-        <textarea class="d-block  mx-4" name="mensaje" id="mensaje" cols="39" rows="3" placeholder="Mensaje"></textarea>
-        <button class="btn btn-success">Enviar</button> 
+  <!-- LOGO AND FORM CTA-->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4 offset-lg-2">
+        <img class="logo-polinet" src="./images/LogoPoliNet.jpeg" alt="Logo PoliNet">
       </div>
-      <!--inicio de la segunda columna -->
-
+      <div class="col-12 col-lg-4">
+        <form class="form-inicial p-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo institucional</label>
+            <input type="email" class="my-input form-control" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">
+              Nunca compartiremos tu correo electrónico con alguien más.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Nueva contraseña</label>
+            <input type="password" class="my-input form-control">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Confirma tu contraseña</label>
+            <input type="password" class="my-input form-control">
+          </div>
+          <button type="submit" class="btn btn-polinet">Registrarse ahora!</button>
+        </form>
       </div>
     </div>
+  </div>
+  <!-- END LOGO AND FORM CTA -->
+
+  <!-- TEAM -->
+  <section class="team text-center ">
+    <div class="container p-5" id="title">
+      <h1 class="text-gray">Team</h1>
+      <p>"El codigo Limpio y el perreo sucio!"</p>
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <div class="card">
+            <div class="card-body" id="card">
+              <img src="images/avatar.png" class="img-fluid rounded-circle w-50" alt="Person One">
+              <h3>David Perez Valenzuela</h3>
+              <br>
+              <h6> CEO & Front-end developer</h6>
+              <p> Desarollador Front-end. Entusiasta de la astronomía. Proactivo con aptitud de liderazgo. Su fuerte: JavaSript con React</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/DavidPerez28100?epa=SEARCH_BOX" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://www.instagram.com/perezcode/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://github.com/PerezCode" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card">
+            <div class="card-body" id="card">
+              <img src="images/avatar_computador.png" class="img-fluid rounded-circle w-50" alt="Person One">
+              <h3>Daniel Felipe Ramirez</h3>
+              <br>
+              <h6> Database architect </h6>
+              <p>Enfocado en el crecimiento personal, fiel creyente del querer es poder, amante al deporte y al
+                desarrollo informático.</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/danielramirez23.dr?epa=SEARCH_BOX" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://www.instagram.com/daniel_ramirez1023/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://github.com/DanielRamirez1023" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card">
+            <div class="card-body" id="card">
+              <img src="images/Screenshot_20200218-111808.png " class="img-fluid rounded-circle w-50" alt="Person One">
+              <h3>Santiago Pulgarín</h3>
+              <br>
+              <h6> Content manager </h6>
+              <p> Amante del fútbol, diciplinado y Apasionado, veo en la tecnología el futuro y una mejor sociedad</p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/santiago.pulgarinrios?epa=SEARCH_BOX" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://www.instagram.com/spulga_5/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://github.com/Pulga5" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="card">
+            <div class="card-body" id="card">
+              <img src="images/MyAvatar.png " class="img-fluid rounded-circle w-50" alt="Person One">
+              <h3>Emanuel Vanegas</h3>
+              <br>
+              <h6> CTO security analyst </h6>
+              <p> Apasionado por la tecnologia,el universo y por aprender, Backend development en progreso. Amante de la
+                IA </p>
+              <div class="d-flex flex-row justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com/Emanuel.Vanegas.13" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://www.instagram.com/emanuelvc07/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="https://github.com/Emanuelcodee" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END TEAM -->
+
+  <!--inicio del formulario de daniel -->
+  <!--seccion de  todo el formulario-->
+  <section class="formulario">
   
+    <div class="container">
+  
+      <!--fila para el contactanos-->
+      <div class="titulo row my-4 justify-content-center">
+        <h1>Contactanos</h1>
+      </div>
+      <div class="col-12">
+  
+        <!--fila para las dos columnas del formulario-->
+        <div class="fila row">
+  
+          <!--inicio de la primera columna -->
+          <div class="columna-1 col-6 ">
+            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Nombre completo">
+  
+            <label class="" for="tipo "></label>
+            <select name="" id="tipo-identificacion">
+              <option value="">Cedula ciudadania </option>
+              <option value="">Tarjeta de indentidad</option>
+              <option value="">Cedula de extranjeria</option>
+              <option value="">Pasaporte</option>
+            </select>
+            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Numero identificacion">
+  
+            <label class="d-block" for="tipo identificacion"></label>
+            <select name="" id="genero">
+              <option value="">Genero</option>
+              <option value="">Femenino</option>
+              <option value="">Masculino</option>
+              <option value="">Otro</option>
+            </select>
+          </div>
+          <!--final de primera columna -->
+  
+          <!--inicio de la segunda columna -->
+          <div class="columna-2 col-6  my-3">
+            <h10> fecha de nacimiento</h10>
+            <input class="d-block  mx-4" type="date" id="fecha">
+            <input class="d-block mx-4" type="text" id="correo" placeholder="Correo electronico">
+            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Asunto ">
+            <textarea class="d-block  mx-4" name="mensaje" id="mensaje" cols="39" rows="3"
+              placeholder="Mensaje"></textarea>
+            <button class="btn btn-success" id="enviar">Enviar</button>
+          </div>
+          <!--final de la segunda columna -->
+        </div>
+      </div>
     </div>
   </section>
 
 </body>
+
 </html>
