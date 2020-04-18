@@ -20,6 +20,11 @@
       </div>
       <div class="rectangulo1"></div>
       <div class="rectangulo2"></div>
+      <div class="rectangulo3"></div>
+      <div class="rectangulo4"></div>
+      <div class="rectangulo5"></div>
+      <div class="rectangulo6"></div>
+      <div class="rectangulo7"></div>
     </div>
   </div>
   <!-- END HEADER -->
@@ -65,8 +70,8 @@
               <img src="images/avatar.png" class="img-fluid rounded-circle w-50" alt="Person One">
               <h3>David Perez Valenzuela</h3>
               <br>
-              <h6> CEO & Front-end developer</h6>
-              <p> Desarollador Front-end. Entusiasta de la astronomía. Proactivo con aptitud de liderazgo. Su fuerte: JavaSript con React</p>
+              <h6>CEO & Front-end developer</h6>
+              <p>Desarollador Front-end. Entusiasta de la astronomía. Proactivo con aptitud de liderazgo. Su fuerte: JavaSript con React</p>
               <div class="d-flex flex-row justify-content-center">
                 <div class="p-4">
                   <a href="https://www.facebook.com/DavidPerez28100?epa=SEARCH_BOX" target="_blank">
@@ -93,7 +98,7 @@
               <img src="images/avatar_computador.png" class="img-fluid rounded-circle w-50" alt="Person One">
               <h3>Daniel Felipe Ramirez</h3>
               <br>
-              <h6> Database architect </h6>
+              <h6>Database architect</h6>
               <p>Enfocado en el crecimiento personal, fiel creyente del querer es poder, amante al deporte y al
                 desarrollo informático.</p>
               <div class="d-flex flex-row justify-content-center">
@@ -150,7 +155,7 @@
               <img src="images/MyAvatar.png " class="img-fluid rounded-circle w-50" alt="Person One">
               <h3>Emanuel Vanegas</h3>
               <br>
-              <h6> CTO security analyst </h6>
+              <h6> CTO & Security analyst </h6>
               <p> Apasionado por la tecnologia,el universo y por aprender, Backend development en progreso. Amante de la
                 IA </p>
               <div class="d-flex flex-row justify-content-center">
@@ -181,57 +186,79 @@
   <!--inicio del formulario de daniel -->
   <!--seccion de  todo el formulario-->
   <section class="formulario">
-  
-    <div class="container">
-  
-      <!--fila para el contactanos-->
-      <div class="titulo row my-4 justify-content-center">
-        <h1>Contactanos</h1>
-      </div>
-      <div class="col-12">
-  
-        <!--fila para las dos columnas del formulario-->
-        <div class="fila row">
-  
-          <!--inicio de la primera columna -->
-          <div class="columna-1 col-6 ">
-            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Nombre completo">
-  
-            <label class="" for="tipo "></label>
-            <select name="" id="tipo-identificacion">
-              <option value="">Cedula ciudadania </option>
-              <option value="">Tarjeta de indentidad</option>
-              <option value="">Cedula de extranjeria</option>
-              <option value="">Pasaporte</option>
-            </select>
-            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Numero identificacion">
-  
-            <label class="d-block" for="tipo identificacion"></label>
-            <select name="" id="genero">
-              <option value="">Genero</option>
-              <option value="">Femenino</option>
-              <option value="">Masculino</option>
-              <option value="">Otro</option>
-            </select>
+    <div class="container-fluid contactanos pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="titulo row my-4 justify-content-center">
+            <h1>Contáctanos</h1>
           </div>
-          <!--final de primera columna -->
-  
-          <!--inicio de la segunda columna -->
-          <div class="columna-2 col-6  my-3">
-            <h10> fecha de nacimiento</h10>
-            <input class="d-block  mx-4" type="date" id="fecha">
-            <input class="d-block mx-4" type="text" id="correo" placeholder="Correo electronico">
-            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Asunto ">
-            <textarea class="d-block  mx-4" name="mensaje" id="mensaje" cols="39" rows="3"
-              placeholder="Mensaje"></textarea>
-            <button class="btn btn-success" id="enviar">Enviar</button>
+          <div class="col">
+            <form>
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-5 offset-lg-1">
+                    <div class="form-group">
+                      <label for="email-input">Nombre completo</label>
+                      <input type="text" class="form-control" id="email-input">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Tipo de identificación</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Cédula de ciudadania</option>
+                        <option>Tarjeta de identidad</option>
+                        <option>Cedula de extranjería</option>
+                        <option>Pasaporte</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="numero-identificacion">Numero de identificación</label>
+                      <input type="number" class="form-control" id="numero-identificacion">
+                    </div>
+                    <div class="form-group">
+                      <label for="genero">¿Eres estudiante?</label>
+                      <select class="form-control" id="student">
+                        <option>Si</option>
+                        <option>No</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-5">
+                    <div class="form-group">
+                      <label for="genero">Género</label>
+                      <select class="form-control" id="genero">
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                      <input type="date" class="form-control" id="fecha-nacimiento"/>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Correo electrónico</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="asunto">Asunto</label>
+                      <input type="text" class="form-control" id="asunto">
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-10 offset-lg-1">
+                    <div class="form-group">
+                      <label for="mensaje">Escribe aqui tu mensaje ;)</label>
+                      <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 offset-lg-4">
+                    <button type="submit" class="btn btn-polinet">Enviar!</button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-          <!--final de la segunda columna -->
         </div>
       </div>
     </div>
   </section>
-
 </body>
-
 </html>

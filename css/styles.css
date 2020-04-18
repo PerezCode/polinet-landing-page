@@ -79,6 +79,54 @@ body {
     transform: rotate(-3deg);
 }
 
+.rectangulo3 {
+  position: absolute;
+  bottom: -40px;
+  right: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+}
+
+.rectangulo4 {
+  position: absolute;
+  bottom: -80px;
+  left: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(3deg);
+}
+
+.rectangulo5 {
+  position: absolute;
+    bottom: -80px;
+    right: -10px;
+    background-color: white;
+    width: 110%;
+    height: 80px;
+    transform: rotate(-3deg);
+}
+
+.rectangulo6 {
+  position: absolute;
+  bottom: -120px;
+  left: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(3deg);
+}
+
+.rectangulo7 {
+  position: absolute;
+    bottom: -120px;
+    right: -10px;
+    background-color: white;
+    width: 110%;
+    height: 80px;
+    transform: rotate(-3deg);
+}
 /* TEAM */
 #card h6{
   color: black;
@@ -103,109 +151,17 @@ color:  rgb(97, 97, 97);
 }
 
 /*css de daniel*/
-
 .titulo{
   width: 100%;
 }
 
-
-#inputs{
-  width: 300px;
-  height: 50px;
-  background: white;
-  padding-left: 3px;
-  border-radius: 7px;
-  margin-top: 25px;
+.titulo h1{
+  color: #029757;
+  font-weight: bold;
 }
 
-#correo{
-  width: 300px;
-  height: 50px;
-  border-radius: 2px;
-  padding-left: 3px;
-  background: white;
-  margin-top: 29px;
-  border-radius: 7px;
-}
-
-#enviar{
-  justify-content: center;
-  margin-left: 130px;
-  margin-top: 18px;
-}
-
-.loguito{
-  margin-left: 23px;
-  margin-top: 25px;
-}
-
-#inputs:hover{
-  border:2px solid green;
-}
-
-#correo:hover{
-
-  border:2px solid green;
-}
-
-#mensaje{
-  border-radius: 7px; 
-  margin-top: 25px;
-}
-#mensaje:hover{
-  border:2px solid green;
-  
-}
-
-#tipo-identificacion{
-margin-top: 25px;
-width: 300px;  
-height: 50px; 
-border-radius: 7px;
-margin-left: 20px;
-color: grey;
-}
-
-#tipo-identificacion:hover{
-  border:2px solid green;
-}
-
-h10{
-
-  margin-left: 24px;
-  color: grey;
-}
-
-
-#fecha{
-  width: 300px;
-  border-radius: 7px;
-  color: gray;
-}
-
-#fecha:hover{
-  border:2px solid green;
-}
-
-.columna-1{
-  padding-left: 200px;
-
-}
-.fila{
-  width: 110%;
-}
-
-#genero{
-width: 300px;  
-height: 50px; 
-margin-top: 20px;
-border-radius: 7px;
-margin-left: 20px;
-color: grey;
-}
-
-#genero:hover{
-  border:2px solid green;
+.contactanos {
+  background-color: rgba(223, 230, 233,0.6);
 }
 
 /*final de css de daniel*/
