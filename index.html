@@ -2,24 +2,49 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="./css/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="icon" href="./favicon.jpeg" type="image/jpeg">
   <title>Conoce PoliNet</title>
 </head>
 <body>
-  <!-- Emanuel
-    Equipo de trabajo con sus avatares.
-    Vínculo a redes sociales.
-  -->
-  
-  <!-- Pulga
-    Beneficios de utilizar la app.
-    Características y funcionalidades de la app.
-  -->
-  
-  <!-- Daniel
-    Formulario con los siguientes campos: nombre completo, tipo de identificación, numero de identificación, genero, fecha de nacimiento, email, asunto, mensaje
-  -->
+  <div class="container-fluid titulos-principales py-5 mb-3">
+    <div class="row">
+      <div class="col col-10 offset-1 mb-5">
+        <h1>Una nueva forma de interactuar en la U</h1>
+        <p class="mt-2">Acceso a todo lo que pasa en nuestro Poli desde un mismo sitio.</p>
+      </div>
+      <div class="rectangulo1"></div>
+      <div class="rectangulo2"></div>
+    </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4 offset-lg-2">
+        <img class="logo-polinet" src="./images/LogoPoliNet.jpeg" alt="Logo PoliNet">
+      </div>
+      <div class="col-12 col-lg-4">
+        <form class="form-inicial p-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo institucional</label>
+            <input type="email" class="my-input form-control" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">
+              Nunca compartiremos tu correo electrónico con alguien más.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Nueva contraseña</label>
+            <input type="password" class="my-input form-control">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Confirma tu contraseña</label>
+            <input type="password" class="my-input form-control">
+          </div>
+          <button type="submit" class="btn btn-polinet">Registrarse ahora!</button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
