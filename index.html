@@ -8,7 +8,6 @@
   <link rel="icon" href="./favicon.jpeg" type="image/jpeg">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
   <title>Conoce PoliNet</title>
 </head>
 <body>
@@ -178,6 +177,60 @@
     </div>
   </section>
   <!-- END TEAM -->
+
+  <!--inicio del formulario de daniel -->
+  <!--seccion de  todo el formulario-->
+  <section class="formulario">
+  
+    <div class="container">
+  
+      <!--fila para el contactanos-->
+      <div class="titulo row my-4 justify-content-center">
+        <h1>Contactanos</h1>
+      </div>
+      <div class="col-12">
+  
+        <!--fila para las dos columnas del formulario-->
+        <div class="fila row">
+  
+          <!--inicio de la primera columna -->
+          <div class="columna-1 col-6 ">
+            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Nombre completo">
+  
+            <label class="" for="tipo "></label>
+            <select name="" id="tipo-identificacion">
+              <option value="">Cedula ciudadania </option>
+              <option value="">Tarjeta de indentidad</option>
+              <option value="">Cedula de extranjeria</option>
+              <option value="">Pasaporte</option>
+            </select>
+            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Numero identificacion">
+  
+            <label class="d-block" for="tipo identificacion"></label>
+            <select name="" id="genero">
+              <option value="">Genero</option>
+              <option value="">Femenino</option>
+              <option value="">Masculino</option>
+              <option value="">Otro</option>
+            </select>
+          </div>
+          <!--final de primera columna -->
+  
+          <!--inicio de la segunda columna -->
+          <div class="columna-2 col-6  my-3">
+            <h10> fecha de nacimiento</h10>
+            <input class="d-block  mx-4" type="date" id="fecha">
+            <input class="d-block mx-4" type="text" id="correo" placeholder="Correo electronico">
+            <input class="d-block  mx-4" type="text" id="inputs" placeholder="Asunto ">
+            <textarea class="d-block  mx-4" name="mensaje" id="mensaje" cols="39" rows="3"
+              placeholder="Mensaje"></textarea>
+            <button class="btn btn-success" id="enviar">Enviar</button>
+          </div>
+          <!--final de la segunda columna -->
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 
