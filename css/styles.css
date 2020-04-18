@@ -61,22 +61,22 @@ body {
 
 .rectangulo1 {
   position: absolute;
-  bottom: -20px;
+  bottom: -40px;
   left: -10px;
   background-color: white;
-  width: 51%;
-  height: 70px;
+  width: 110%;
+  height: 80px;
   transform: rotate(3deg);
 }
 
 .rectangulo2 {
   position: absolute;
-  bottom: -20px;
-  right: -10px;
-  background-color: white;
-  width: 51%;
-  height: 70px;
-  transform: rotate(-3deg);
+    bottom: -40px;
+    right: -10px;
+    background-color: white;
+    width: 110%;
+    height: 80px;
+    transform: rotate(-3deg);
 }
 
 /* TEAM */
@@ -86,8 +86,11 @@ body {
 }
 
 .card-body {
-  box-shadow: 1px 1px 3px rgb(94, 94, 94);
+  box-shadow: 0px 0px 13px #7f7f7f4d;
+}
 
+.card {
+  height: 100%;
 }
 
 #card p{
@@ -95,6 +98,6 @@ color:  rgb(97, 97, 97);
 }
 
 #title h1{
-  color: rgb(29, 133, 29);
+  color: #029757;
   font-weight: bold;
 }
