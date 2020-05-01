@@ -71,12 +71,12 @@ body {
 
 .rectangulo2 {
   position: absolute;
-    bottom: -40px;
-    right: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(-3deg);
+  bottom: -40px;
+  right: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(-3deg);
 }
 
 .rectangulo3 {
@@ -100,12 +100,12 @@ body {
 
 .rectangulo5 {
   position: absolute;
-    bottom: -80px;
-    right: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(-3deg);
+  bottom: -80px;
+  right: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(-3deg);
 }
 
 .rectangulo6 {
@@ -120,15 +120,53 @@ body {
 
 .rectangulo7 {
   position: absolute;
-    bottom: -120px;
-    right: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(-3deg);
+  bottom: -120px;
+  right: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(-3deg);
 }
+
+.funcionalidades {
+  background-color: #03804a;
+}
+
+.funcionalidades .row-title {
+  margin: 0;
+  padding: 20px auto;
+}
+
+.funcionalidades .titulo {
+  text-align: center;
+  margin: 20px 0;
+  font-size: xxx-large;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.funcionalidades .my-row {
+  padding: 40px 30px;
+}
+
+.funcionalidades .my-row h3 {
+  font-size: xx-large;
+}
+
+.funcionalidades .my-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.funcionalidades img {
+  width: 50%;
+}
+
 /* TEAM */
-#card h6{
+#card h6 {
   color: black;
   font-weight: 650;
 }
@@ -141,21 +179,21 @@ body {
   height: 100%;
 }
 
-#card p{
+#card p {
 color:  rgb(97, 97, 97);
 }
 
-#title h1{
+#title h1 {
   color: #029757;
   font-weight: bold;
 }
 
 /*css de daniel*/
-.titulo{
+.titulo {
   width: 100%;
 }
 
-.titulo h1{
+.titulo h1 {
   color: #029757;
   font-weight: bold;
 }
@@ -164,10 +202,9 @@ color:  rgb(97, 97, 97);
   background-color: rgba(223, 230, 233,0.6);
 }
 
-.chigorodo h3{
+.chigorodo h3 {
   color: #029757;
   font-weight: bold;
-
 }
 
 /*final de css de daniel*/
