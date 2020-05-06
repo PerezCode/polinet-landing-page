@@ -153,6 +153,10 @@ body {
   font-size: xx-large;
 }
 
+.funcionalidades .my-row p{
+  text-align: center;
+}
+
 .funcionalidades .my-col {
   display: flex;
   flex-direction: column;
@@ -162,7 +166,7 @@ body {
 }
 
 .funcionalidades img {
-  width: 50%;
+  width: 45%;
 }
 
 /* TEAM */
