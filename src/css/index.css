@@ -1,15 +1,10 @@
-@font-face {
-  font-family: Inter;
-  src: url("../fonts/Inter/Inter-VariableFont_slnt,wght.ttf");
-}
-
-body {
-  font-family: Lato, sans-serif;
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .titulos-principales {
   position: relative;
-  font-family: Inter, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #029757;
   color: white;
   overflow: hidden;
@@ -22,8 +17,9 @@ body {
 }
 
 .titulos-principales .row .col h1 {
-  font-weight: 600;
   text-align: center;
+  font-weight: 600;
+  font-family: 'Roboto';
 }
 
 .titulos-principales .row .col p {
@@ -138,11 +134,12 @@ body {
 }
 
 .funcionalidades .titulo {
-  text-align: center;
   margin: 20px 0;
   font-size: xxx-large;
-  color: white;
+  text-align: center;
   letter-spacing: 1px;
+  color: white;
+  font-family: 'Roboto';
 }
 
 .funcionalidades .my-row {
@@ -150,6 +147,7 @@ body {
 }
 
 .funcionalidades .my-row h3 {
+  font-family: 'Roboto';
   font-size: xx-large;
 }
 
@@ -188,8 +186,9 @@ color:  rgb(97, 97, 97);
 }
 
 #title h1 {
-  color: #029757;
+  font-family: 'Roboto';
   font-weight: bold;
+  color: #029757;
 }
 
 /*css de daniel*/
@@ -198,8 +197,9 @@ color:  rgb(97, 97, 97);
 }
 
 .titulo h1 {
-  color: #029757;
+  font-family: 'Roboto';
   font-weight: bold;
+  color: #029757;
 }
 
 .contactanos {
@@ -207,8 +207,9 @@ color:  rgb(97, 97, 97);
 }
 
 .chigorodo h3 {
-  color: #029757;
+  font-family: 'Roboto';
   font-weight: bold;
+  color: #029757;
 }
 
 /*final de css de daniel*/

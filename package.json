@@ -1,0 +1,29 @@
+{
+  "name": "polinet",
+  "version": "1.0.0",
+  "description": "Pagina funcional de PoliNet para la entrega numero 3 de la signatura de Semiótica informática.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerezCode/polinet-landing-page.git"
+  },
+  "keywords": [
+    "PoliNet",
+    "Frontend"
+  ],
+  "author": "ChataSoft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PerezCode/polinet-landing-page/issues"
+  },
+  "homepage": "https://github.com/PerezCode/polinet-landing-page#readme",
+  "dependencies": {
+    "bootstrap": "4.5.0"
+  },
+  "devDependencies": {
+    "live-server": "1.2.1"
+  }
+}
