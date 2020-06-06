@@ -55,6 +55,11 @@
   background-color: #03804a;
 }
 
+.minilabel {
+  font-size: 12px;
+  font-weight: 600;
+}
+
 .rectangulo1 {
   position: absolute;
   bottom: -40px;
