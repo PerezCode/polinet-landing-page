@@ -1,0 +1,77 @@
+h1 {
+  font-size: 2.3rem;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom , #00b064, #017342);
+}
+
+i {
+  font-size: 2.3rem;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #019656;
+}
+
+.notices {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 2px black;
+  overflow: hidden;
+}
+
+.notice__imgContainer {
+  width: 100%;
+  height: 40%;
+}
+
+.notice__imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.notice__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.notice__preview {
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+}
+
+.notice__button {
+  width: 75%;
+  color: white;
+  border: 0;
+  border-radius: 30px;
+  background: #0da061;
+}
+
+/* titulo -> roboto 28px
+parrafo  -> Roboto 17px
+fecha  Roboto 17px
+*/
+
+@media only screen and (max-width: 1199px){
+  .notices {
+    justify-content: center;
+  }
+}
