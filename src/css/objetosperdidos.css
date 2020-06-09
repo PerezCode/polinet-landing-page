@@ -1,0 +1,117 @@
+/* estilos de la pagina objetos perdidos*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  body{
+      background:#029757;
+      
+  }
+
+  header{
+      margin-top: 20px;
+      justify-content: center;
+      display: flex;
+  }
+  #perdi-algo{
+      border: none;
+      margin-left: 15px;
+      background: white;
+      color: black;
+      padding: 10px;
+      outline: none;
+      border-radius: 2px;
+      box-shadow: 1px 1px 10px black; 
+  }
+.seccion{
+    color: white;
+    padding: 20px;
+}
+.recuadro-objeto{
+    margin: 2%;
+    width: 60%;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black; 
+    text-align: center; 
+}
+
+#objeto-encontrado{
+    width: 80%;
+    background: #029757;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+} 
+
+#enviar{
+    margin-left: 15px;
+    background: white;
+    color: black;
+    padding: 10px;
+    outline: none;
+    width: 80px;
+    height: 50px;
+}
+
+#formulario{
+    display: flexbox;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+textarea{
+    width: 100%;
+    outline: none;
+    border-radius: 4px;
+}
+
+label{
+    font-size: 25px;
+    color: white;
+    align-items: flex-end;
+}
+
+
+#boton2{
+    border: none;
+    border-radius: 100px;
+    background: white;
+    outline: none;
+    padding: 12px;
+}
+
+@media screen and (max-width:460px){
+    #perdi-algo{
+        width: 50%;
+        height: 50px;
+        margin-top: 8%;
+        margin-right: 8%;
+    }
+
+    .recuadro-objeto{
+        width: 100%;
+    }
+
+    .recuadro-objeto{
+        margin: 7%;
+    }
+    #formulario{
+        display: flexbox;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+img{
+    width: 100px;
+    border-radius: 100px;
+}
+
