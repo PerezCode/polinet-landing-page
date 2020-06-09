@@ -1,131 +1,138 @@
 * {
-    font-family: 'Open Sans', sans-serif;
-  }
+  font-family: "Open Sans", sans-serif;
+}
 
-  
 .titulos-principales {
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    background-color: #029757;
-    color: white;
-    overflow: hidden;
-  }
-  
-  .titulos-principales .row .col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .titulos-principales .row .col h1 {
-    text-align: center;
-    font-weight: 600;
-    font-family: 'Roboto';
-  }
-  
-  .titulos-principales .row .col p {
-    text-align: center;
-  }
-  
-  .logo-polinet {
-    width: 100%;
-  }
-  
-  .form-inicial {
-    border: #808080;
-    border: 1px solid #7f7f7f4d;
-    border-radius: 10px;
-    box-shadow: 0px 0px 13px #7f7f7f4d;
-  }
-  
-  .my-input:focus {
-    outline: none;
-    box-shadow: none;
-    border-color: #7F7F7F;
-  }
-  
-  .btn-polinet {
-    width: 100%;
-    background-color: #029757;
-    border-color: #808080;
-    color: white;
-  }
-  
-  .btn-polinet:hover {
-    color: white;
-    background-color: #03804a;
-  }
-  
-  .minilabel {
-    font-size: 12px;
-    font-weight: 600;
-  }
-  
-  .rectangulo1 {
-    position: absolute;
-    bottom: -40px;
-    left: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(3deg);
-  }
-  
-  .rectangulo2 {
-    position: absolute;
-    bottom: -40px;
-    right: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(-3deg);
-  }
-  
-  .rectangulo3 {
-    position: absolute;
-    bottom: -40px;
-    right: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-  }
-  
-  .rectangulo4 {
-    position: absolute;
-    bottom: -80px;
-    left: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(3deg);
-  }
-  
-  .rectangulo5 {
-    position: absolute;
-    bottom: -80px;
-    right: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(-3deg);
-  }
-  
-  .rectangulo6 {
-    position: absolute;
-    bottom: -120px;
-    left: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(3deg);
-  }
-  
-  .rectangulo7 {
-    position: absolute;
-    bottom: -120px;
-    right: -10px;
-    background-color: white;
-    width: 110%;
-    height: 80px;
-    transform: rotate(-3deg);
-  }
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  background-color: #029757;
+  color: white;
+  overflow: hidden;
+}
+
+.titulos-principales .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulos-principales .row .col h1 {
+  text-align: center;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.titulos-principales .row .col p {
+  text-align: center;
+}
+
+.logo-polinet {
+  width: 100%;
+}
+
+.form-inicial {
+  border: #808080;
+  border: 1px solid #7f7f7f4d;
+  border-radius: 10px;
+  box-shadow: 0px 0px 13px #7f7f7f4d;
+}
+
+.my-input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #7f7f7f;
+}
+
+.rectangulo1 {
+  position: absolute;
+  bottom: -40px;
+  left: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(3deg);
+}
+
+.rectangulo2 {
+  position: absolute;
+  bottom: -40px;
+  right: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(-3deg);
+}
+
+.rectangulo3 {
+  position: absolute;
+  bottom: -40px;
+  right: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+}
+
+.rectangulo4 {
+  position: absolute;
+  bottom: -80px;
+  left: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(3deg);
+}
+
+.rectangulo5 {
+  position: absolute;
+  bottom: -80px;
+  right: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(-3deg);
+}
+
+.rectangulo6 {
+  position: absolute;
+  bottom: -120px;
+  left: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(3deg);
+}
+
+.rectangulo7 {
+  position: absolute;
+  bottom: -120px;
+  right: -10px;
+  background-color: white;
+  width: 110%;
+  height: 80px;
+  transform: rotate(-3deg);
+}
+
+#person1 {
+  height: 100%;
+}
+
+#person2 {
+  height: 100%;
+}
+
+#person3 {
+  height: 100%;
+}
+
+#person4 {
+  height: 100%;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 2px rgb(66, 66, 66);
+}
