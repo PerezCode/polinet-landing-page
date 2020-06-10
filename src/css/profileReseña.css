@@ -1,0 +1,112 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+body {
+  height: 100%;
+  background: white;
+}
+
+i {
+  font-size: 2.3rem;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #019656;
+  height: 80px;
+}
+
+#profile1 {
+  width: 70%;
+  box-shadow: 0px 0px 6px 2px black;
+}
+
+#title {
+  color: #019656;
+  padding-top: 40px;
+}
+
+.descripcion h4 {
+  color: black;
+  margin-right: 10%;
+}
+
+#number{
+    margin-right: 59%;
+}
+
+#asignatura {
+  color: #019656;
+}
+
+
+.card-header {
+  color: white;
+  background: rgba(61, 227, 164, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(61, 227, 164, 1) 0%,
+    rgba(1, 150, 86, 1) 49%,
+    rgba(1, 150, 86, 1) 51%,
+    rgba(61, 227, 164, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(61, 227, 164, 1)),
+    color-stop(49%, rgba(1, 150, 86, 1)),
+    color-stop(51%, rgba(1, 150, 86, 1)),
+    color-stop(100%, rgba(61, 227, 164, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(61, 227, 164, 1) 0%,
+    rgba(1, 150, 86, 1) 49%,
+    rgba(1, 150, 86, 1) 51%,
+    rgba(61, 227, 164, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(61, 227, 164, 1) 0%,
+    rgba(1, 150, 86, 1) 49%,
+    rgba(1, 150, 86, 1) 51%,
+    rgba(61, 227, 164, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(61, 227, 164, 1) 0%,
+    rgba(1, 150, 86, 1) 49%,
+    rgba(1, 150, 86, 1) 51%,
+    rgba(61, 227, 164, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(61, 227, 164, 1) 0%,
+    rgba(1, 150, 86, 1) 49%,
+    rgba(1, 150, 86, 1) 51%,
+    rgba(61, 227, 164, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3de3a4', endColorstr='#3de3a4', GradientType=1 );
+}
+
+.card-body h5{
+    font-weight: 800;
+    margin-right: 63px;   
+}
+
+.btn{
+    margin-right: 55px;
+    background: #019656;
+}
+
+.card{
+    box-shadow: 0px 0px 10px 1px rgb(141, 141, 141);
+}

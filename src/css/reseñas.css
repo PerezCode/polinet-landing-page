@@ -137,3 +137,17 @@
     border-radius: 5px;
     box-shadow: 0px 0px 6px 2px rgb(66, 66, 66);
   }
+
+  #names{
+    color: #029757;
+    font-weight: bold;
+  }
+
+  #titles{
+    color: #029757;
+    font-weight: 900;
+  }
+
+  .btn{
+    margin-left: 85%;
+  }
