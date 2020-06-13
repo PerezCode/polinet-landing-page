@@ -59,10 +59,16 @@ i {
 
 .notice__button {
   width: 75%;
+  text-align: center;
   color: white;
-  border: 0;
+  border: 2px solid #4ad498;
   border-radius: 30px;
   background: #0da061;
+}
+
+.notice__button:hover {
+  color: white;
+  text-decoration: none;
 }
 
 /* titulo -> roboto 28px

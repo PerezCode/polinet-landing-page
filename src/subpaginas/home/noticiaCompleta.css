@@ -1,0 +1,40 @@
+h1 {
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom , #00b064, #017342);
+}
+
+i {
+  font-size: 2.3rem;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #019656;
+}
+
+.notice {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+
+.notice__imgContainer {
+  width: 100%;
+  height: 300px;
+}
+
+.notice__imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
