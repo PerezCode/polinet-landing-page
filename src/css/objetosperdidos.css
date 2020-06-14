@@ -1,22 +1,34 @@
 /* estilos de la pagina objetos perdidos*/
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   body{
-      background:#029757;
-      
+      background:#029757;    
   }
+
 
   header{
       margin-top: 20px;
       justify-content: center;
       display: flex;
   }
+  header img{
+      border-radius: 0%;
+      width: 50px;
+      height: 50px;
+  }
+
+  header h1{
+      margin-left: 12px;
+      margin-top: 8px;
+  }
   #perdi-algo{
+      height: 50px;
       border: none;
-      margin-left: 15px;
+      margin-left: 20px;
+      margin-top: 10px;
       background: white;
       color: black;
       padding: 10px;
@@ -39,7 +51,7 @@
     text-align: center; 
 }
 
-#objeto-encontrado{
+.objeto-encontrado{
     width: 80%;
     background: #029757;
     outline: none;
@@ -84,16 +96,102 @@ label{
     border: none;
     border-radius: 100px;
     background: white;
+    color: #029757;
     outline: none;
     padding: 12px;
 }
 
+
+/* notificacion propietario*/
+#centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.notificacion{
+    width: 60%;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    margin-top: 18%;
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+    color: #029757;
+    font-size: 30px;
+}
+
+.contenido h1{
+    margin-bottom: 100px;
+    margin-left: 20%;
+    margin-top: 50px;
+   
+}
+
+.contenido i{   
+    font-size: 150px;
+    margin-left: 50px;
+    color: #029757;
+}
+
+.columna2{
+    height: 165px;
+}
+
+#numero{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+img{
+    width: 100px;
+    border-radius: 100px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.llamar{
+    display: flex;
+    justify-content: center;
+}
+
+.llamar button{
+    background: #029757;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 130px;
+    height:40px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
 @media screen and (max-width:460px){
+    #formulario{
+        margin-top: 3px;
+    }
     #perdi-algo{
-        width: 50%;
-        height: 50px;
-        margin-top: 8%;
+        width: 38%;
+        height: 38px;
+        margin-top: 6%;
         margin-right: 8%;
+        font-size: 13px;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+    header img{
+        width: 40px;
+        height: 40px;
+        margin-top: 12px;
+        margin-left: 24px;
     }
 
     .recuadro-objeto{
@@ -108,10 +206,52 @@ label{
         width: 100%;
         align-items: center;
     }
-}
+    
+    .notificacion{
+       width: 100%;
+       height: 50%;
+       margin-top: 60%;
+    }
+    .columna2{
+        height: 10px;
+        width: 0px; 
+    }
+    .contenido i{
+        font-size: 40px;
+        margin-left: 0;
+        
+    }
 
-img{
-    width: 100px;
-    border-radius: 100px;
-}
+    .columna1{
+        display: flex;
+        justify-content: center;
+    }
+    .columna2 h1{
+        width: 0px; 
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 10px; 
+    }
 
+    .icono{   
+        font-size: 20px;
+        justify-content: left;
+    }
+    #numero{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .contenido p{
+        margin-top: 50px;
+        font-size: 14px;
+    }
+    
+    .llamar button{
+        width: 100px;
+        height:35px;
+        padding: 5px;
+        font-size: 15px;
+    }
+}
