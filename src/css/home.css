@@ -17,7 +17,7 @@ i {
   background-color: #019656;
 }
 
-.container {
+main {
   margin-bottom: 60px;
 }
 
@@ -95,6 +95,7 @@ i {
 }
 
 .navbar__item {
+  padding-bottom: 5px;
   height: 100%;
 }
 
@@ -102,6 +103,9 @@ i {
   height: 100%;
 }
 
+.active {
+  border-bottom: 2px solid white;
+}
 /* titulo -> roboto 28px
 parrafo  -> Roboto 17px
 fecha  Roboto 17px
@@ -109,7 +113,7 @@ fecha  Roboto 17px
 
 /* mediaquery para el navbar */
 @media only screen and (max-width: 768px){
-  .container {
+  main {
     margin-bottom: 50px;
   }
   .navbarContainer {
