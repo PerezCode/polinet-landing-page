@@ -1,0 +1,131 @@
+h1 {
+  font-size: 2.3rem;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom , #00b064, #017342);
+}
+
+i {
+  font-size: 2.3rem;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #019656;
+}
+
+main {
+  margin-bottom: 60px;
+}
+
+.notices {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px 2px black;
+  overflow: hidden;
+}
+
+.notice__imgContainer {
+  width: 100%;
+  height: 40%;
+}
+
+.notice__imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.notice__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.notice__preview {
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+}
+
+.notice__button {
+  width: 75%;
+  text-align: center;
+  color: white;
+  border: 2px solid #4ad498;
+  border-radius: 30px;
+  background: #0da061;
+}
+
+.notice__button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbarContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background: #029757;
+}
+
+.navbar {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar__item {
+  padding-bottom: 5px;
+  height: 100%;
+}
+
+.navbar__item img {
+  height: 100%;
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+/* titulo -> roboto 28px
+parrafo  -> Roboto 17px
+fecha  Roboto 17px
+*/
+
+/* mediaquery para el navbar */
+@media only screen and (max-width: 768px){
+  main {
+    margin-bottom: 50px;
+  }
+  .navbarContainer {
+    height: 50px;
+  }
+  .navbar {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1199px){
+  .notices {
+    justify-content: center;
+  }
+}
