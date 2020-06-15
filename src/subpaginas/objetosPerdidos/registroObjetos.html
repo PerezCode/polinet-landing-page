@@ -9,8 +9,12 @@
 </head>
 <body>
                 <div class="container" id="formulario">
-                    <img src="/src/images/objetosperdidos/fondo.png" alt="">
-                    <form action="../objetosperdidos.html" method="GET" >
+                    <img src="/src/images/objetosperdidos/fondo.jpeg" id="circuloImagen">
+                    <div class="row">
+                        <input type="file" style="visibility: hidden;" />
+                    </div>
+                    
+                    <form action="../../objetosperdidos.html" method="GET" >
                         <div class="">
                             <label class="mt-3">Tipo de objeto</label>
                             <input class="form-control mb-4" type="text" name="tipo">
@@ -25,6 +29,6 @@
                            
                 </div> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/src/js/objetosperdidos.js"></script>
+    <script src="/src/js/registroObjetos.js"></script>
 </body>
 </html>

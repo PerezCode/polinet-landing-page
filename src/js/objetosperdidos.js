@@ -1,36 +1,49 @@
 $(function(){
 
+    
     $("#perdi-algo").click(function(){
-        location.href = "./subpaginas/registroObjetos.html?"
+        location.href = "subpaginas/objetosPerdidos/registroObjetos.html?"
     })
 
-    $("#boton2").click(function(){
+    
+
+    let fase1 = location.search.split("&");
+    
+    let posicion_1 = fase1[0].split("=")
+    let posicion_2 = fase1[1].split("=")
+    let posicion_3 = fase1[2].split("=")
+
+    let tipo = posicion_1[1].replace("+"," ")
+    let celular = posicion_2[1]
+    let descripcion = posicion_3[1]
+
+    $("#main").append(`<div class="recuadro-objeto d-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+            
+            </div>
+            <div class="col-md-3 text-center mt-4">
+                <h1>${tipo}</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <p><strong>descripcion:</strong> ${descripcion.replace(/\+/g, " ")} </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <button class="objeto-encontrado" >Lo encontre</button>
+        </div>
+    </div>
+</div>`     
+        );
+
+        $(".objeto-encontrado").click(function(){
+            location.href = "subpaginas/objetosPerdidos/notificacionPropietario.html?"
+        })
+
         
-        location.href = "objetosperdidos.html?"
-
-        //aun no habilitado 
-        $("#main").append(`<div class="recuadro-objeto d-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                <img src="./images/objetosperdidos/saco.jpg" alt="imagen saco">
-                </div>
-                <div class="col-md-3 text-center mt-4">
-                    <h1>Buzo adidas</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <p><strong>descripcion:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda est molestias quibusdam maxime </p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <button id="objeto-encontrado" >Lo encontre</button>
-            </div>
-        </div>
-    </div>`     
-            );
-    })
 })
