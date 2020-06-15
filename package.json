@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/PerezCode/polinet-landing-page#readme",
   "dependencies": {
-    "bootstrap": "4.5.0"
+    "bootstrap": "4.5.0",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "live-server": "1.2.1"
