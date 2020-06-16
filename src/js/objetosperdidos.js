@@ -5,8 +5,6 @@ $(function(){
         location.href = "subpaginas/objetosPerdidos/registroObjetos.html?"
     })
 
-    
-
     let fase1 = location.search.split("&");
     
     let posicion_1 = fase1[0].split("=")
@@ -42,7 +40,7 @@ $(function(){
         );
 
         $(".objeto-encontrado").click(function(){
-            location.href = "subpaginas/objetosPerdidos/notificacionPropietario.html?"
+            location.href = "subpaginas/objetosPerdidos/notificacionPropietario.html?" + celular.toString() + "";
         })
 
         

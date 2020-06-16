@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/src/css/objetosperdidos.css">
 </head>
 <body>
+    <header id="header-registro">
+        <i class="far fa-address-card"></i>
+        <h1>contactar propietario</h1>
+   </header>
     <div class="container">
         <div class="row">
             <div id="centrar" class="col-md-12">
@@ -27,12 +31,11 @@
                             <div class="col-md-6 columna2">
                                 <h1>Propietario</h1>
                             </div>
-                            <p><strong id="numero">Numero celular:</strong>123412321312</p>
+                            <p id="numero"><strong>Numero celular:</strong></p>
                         </div>
                         <div class="row llamar">
-                            <button>Contactar</button>
+                            <button>Llamar</button>
                         </div>
-
                     </div>
                    </div>
                    
@@ -40,5 +43,32 @@
             </div>
         </div>
     </div>
+    <nav class="navbarContainer">
+        <ul class="navbar m-0">
+          <li class="navbar__item mx-2 px-2 text-center ">
+            <a href="/src/home.html">
+              <img src="/src/images/navbarIcons/home.svg" alt="">
+            </a>
+          </li>
+          <li class="navbar__item mx-2 px-2 text-center">
+            <a href="/src/reseñas.html">
+              <img src="/src/images/navbarIcons/revision.svg" alt="">
+            </a>
+          </li>
+          <li class="navbar__item mx-2 px-2 text-center active">
+            <a href="/src/objetosperdidos.html">
+              <img src="/src/images/navbarIcons/articulos-perdidos.svg" alt="">
+            </a>
+          </li>
+          <li class="navbar__item mx-2 px-2 text-center">
+            <a href="#">
+              <img src="/src/images/navbarIcons/ajustes.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/src/js/notificacionPropietario.js"></script>
 </body>
 </html>

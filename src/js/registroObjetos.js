@@ -16,6 +16,6 @@ $(function(){
         informacion.push(descripcion)
         
         location.href = "registroObjetos.html?" + informacion.toString() + "";
-
+       
     })
 })
