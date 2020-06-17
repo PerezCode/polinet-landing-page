@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="icon" href="./favicon.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/Login.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="css/login.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <div class="container-fluid titulos-principales">
+        <div id="regresar">
+            <a href="" >Regresar </a> 
+        </div>
+        <div class="row">
+            <div class="col col-10 offset-1 mb-5">
+                <img src="images/LogoPoliNet.jpeg">
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div id='wrapper'>
+        
+    <form action="home.html" class='form'>
+        <center><h1>¡Bienvenido!</h1>
+        <br>
+        <h3>Iniciar Sesion</h3></center>
+        <br>
+        <div class="container">
+                <label  for='email'>Correo</label>
+                <input class='text-input' id='correo' name='email' type='email' onkeyup="activacion()" required>
+        </div>
+        <div class="container">
+                <label  for='Contraseña'>Contraseña</label>
+                <input  class='text-input' id='Contraseña' name='Contraseña' type='password' placeholder="Mas de 5 letras o numeros"   onkeyup="activacion()" required>
+        </div>
+            <input disabled type="submit" class="btn btn-primary" id="boton" value="ENVIAR"  >   
+    </form>
+
+    </div>
+    <footer>
+        <div class="imagen">
+            <img src="images/LogoPoliNet.jpeg" width="50px" height="50px"  >
+          </div>
+    </footer>
+</body>
+
+</html>
