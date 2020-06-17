@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/8df3538f46.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/src/css/objetosperdidos.css ">
-    <title>Objetos Perdidos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/8df3538f46.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/src/css/objetosperdidos.css ">
+  <title>Objetos Perdidos</title>
 </head>
+
 <body>
-    <header id="header-registro">
-        <i class="fas fa-edit"></i>
-        <h1>Registro objeto</h1>
-   </header>
-    <main>
-        <div class="container" id="formulario">
-            <img src="/src/images/objetosperdidos/fondo.jpeg" id="circuloImagen">
-            <div class="row">
-                <input type="file" style="visibility: hidden;" />
-            </div>
-            
-            <form action="../../objetosperdidos.html" method="GET" >
-                <div class="">
-                    <label>Tipo de objeto</label>
-                    <input class="form-control mb-4" type="text" name="tipo">
-                </div>
-                <div class="mb-5">
-                    <label class="">Cel/Tel </label>
-                    <input class="form-control" type="number" name="celular">
-                </div>
-                <textarea class="p-2" name="descripcion" id="descripcion" cols="30" rows="6" placeholder="Descripcion del objeto"></textarea>
-                <input type="submit" id="boton2" value="Agregar Objeto"> 
-            </form>     
-        </div> 
-    </main>
-    <nav class="navbarContainer mb-2">
-        <ul class="navbar m-0">
-          <li class="navbar__item mx-2 px-2 text-center ">
-            <a href="/src/home.html">
-              <img src="/src/images/navbarIcons/home.svg" alt="">
-            </a>
-          </li>
-          <li class="navbar__item mx-2 px-2 text-center">
-            <a href="/src/reseñas.html">
-              <img src="/src/images/navbarIcons/revision.svg" alt="">
-            </a>
-          </li>
-          <li class="navbar__item mx-2 px-2 text-center active">
-            <a href="/src/objetosperdidos.html">
-              <img src="/src/images/navbarIcons/articulos-perdidos.svg" alt="">
-            </a>
-          </li>
-          <li class="navbar__item mx-2 px-2 text-center">
-            <a href="#">
-              <img src="/src/images/navbarIcons/ajustes.svg" alt="">
-            </a>
-          </li>
-        </ul>
-      </nav>          
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/src/js/registroObjetos.js"></script>
+  <header id="header-registro">
+    <i class="fas fa-edit"></i>
+    <h1>Registro objeto</h1>
+  </header>
+  <main>
+    <div class="container" id="formulario">
+
+      <div class="container d-flex" id="contenedor-card">
+        <div class="card">
+          <img id="img-preview" name="imagen" src="/src/images/objetosperdidos/fondo.jpeg">
+          <div class="card-footer">
+            <input type="file" id="img-uploader">
+            <progress id="img-upload-bar" value="0" max="100"></progress>
+          </div>
+        </div>
+      </div>
+      <form action="../../objetosperdidos.html" method="GET">
+        <div class="mt-4">
+          <label>Tipo de objeto</label>
+          <input class="form-control mb-4" type="text" name="tipo">
+        </div>
+        <div class="mb-5">
+          <label class="">Cel/Tel </label>
+          <input class="form-control" type="number" name="celular">
+        </div>
+        <textarea class="p-2" name="descripcion" id="descripcion" cols="30" rows="6"
+          placeholder="Descripcion del objeto"></textarea>
+        <input type="submit" id="boton2" value="Agregar Objeto">
+      </form>
+    </div>
+  </main>
+  <nav class="navbarContainer mb-2">
+    <ul class="navbar m-0">
+      <li class="navbar__item mx-2 px-2 text-center ">
+        <a href="/src/home.html">
+          <img src="/src/images/navbarIcons/home.svg" alt="">
+        </a>
+      </li>
+      <li class="navbar__item mx-2 px-2 text-center">
+        <a href="/src/reseñas.html">
+          <img src="/src/images/navbarIcons/revision.svg" alt="">
+        </a>
+      </li>
+      <li class="navbar__item mx-2 px-2 text-center active">
+        <a href="/src/objetosperdidos.html">
+          <img src="/src/images/navbarIcons/articulos-perdidos.svg" alt="">
+        </a>
+      </li>
+      <li class="navbar__item mx-2 px-2 text-center">
+        <a href="#">
+          <img src="/src/images/navbarIcons/ajustes.svg" alt="">
+        </a>
+      </li>
+    </ul>
+  </nav>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/src/js/registroObjetos.js"></script>
 </body>
+
 </html>
