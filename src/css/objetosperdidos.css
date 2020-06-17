@@ -5,15 +5,17 @@
   }
 
   body{
-      background:#029757;    
+    background: linear-gradient(to bottom , #00b064, #017342);  
   }
 
+main{
+    margin-bottom: 50px;
+}
 
   header{
       margin-top: 20px;
       justify-content: center;
       display: flex;
-      background:#029757;
   }
   header img{
       border-radius: 0%;
@@ -41,6 +43,7 @@
     color: white;
     padding: 20px;
     padding-bottom: 30px;
+    background: linear-gradient(to bottom , #00b064, #017342);
 }
 .recuadro-objeto{
     margin: 2%;
@@ -94,9 +97,6 @@
     color: white;
 }
 
-#circuloImagen{
-    display: none;
-}
 #formulario{
     display: flexbox;
     width: 40%;
@@ -133,6 +133,7 @@ label{
 #centrar{
     display: flex;
     justify-content: center;
+    margin-bottom: 300px;
 }
 
 .notificacion{
@@ -426,5 +427,9 @@ p{
       .navbar__item img{
             border-radius: 0%;
             width: 48px;
+      }
+
+      #centrar{
+        margin-bottom: 170px;
       }
 }
