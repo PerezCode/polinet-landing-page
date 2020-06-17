@@ -6,46 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/home.css">
     <link rel="icon" href="../../favicon.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="../../css/home.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../css/Configuracion.css">
-    
-
-    <title>Privacidad</title>
+    <link rel="stylesheet" href="../../css/Contraseña.css">
+    <script src="../../js/Contraseña.js"></script>
+    <title>Contraseña</title>
 </head>
 
 <body>
 
     <header>
-        <a href="../../Configuracion.html">
+        <a href="Seguridad.html">
             <img src="../../images/configuraciones/back.png">
         </a>
-        <h1>Privacidad</h1>
+        <h1>Contraseña</h1>
     </header>
-    
+
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <a href="privacidadCuenta.html"><img src="../../images/configuraciones/candado.png">
-                Privacidad de la cuenta</a> 
-            </div>
-            <div class="col-md-6">
-                <a href="EstadoObjetos.html"><img src="../../images/configuraciones/nube.png">
-                Estado objetos perdidos</a> 
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <a href="EstadoReseña.html"><img src="../../images/configuraciones/mensaje.png">
-                Estado reseñas</a> 
-            </div>
-            <div class="col-md-6">
-                <a href="InfoPersonal.html"><img src="../../images/configuraciones/usuario.png">
-                Mostrar informacion personal</a> 
-            </div>
-        </div>
-    </div>
+        <form action='Seguridad.html' class='form'>
+            <p class='field required half'>
+                <label for='Contraseña'>Antigua Contraseña</label>
+                <input class='text-input' id='Contraseña' name="contrsaeña" required type='password' onkeyup="activacion()">
+            </p>
+
+            <p class='field required half'>
+                <label for='Contraseña3'>Nueva Contraseña</label>
+                <input class='text-input' id='Contraseña2' name='Contraseña' required type='password' placeholder="Deben ser iguales" onkeyup="activacion()">
+            </p>
+            
+            <p class='field required half'>
+                <label for='Contraseña4'>Repetir Nueva Contraseña</label>
+                <input class='text-input' id='Contraseña3' name='Contraseña' required type='password' placeholder="Deben ser iguales" onkeyup="activacion()">
+            </p>    
+            <p class='field'>
+                <input  type='button' class="btn btn-primary" style="width: 50%;" value='Enviar' id="boton" disabled>
+            </p>
+        </form>
+    </div> 
 
     <nav class="navbarContainer">
         <ul class="navbar m-0">
@@ -72,6 +70,7 @@
         </ul>
     </nav>
 
+    <script src="../../js/Contraseña.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>

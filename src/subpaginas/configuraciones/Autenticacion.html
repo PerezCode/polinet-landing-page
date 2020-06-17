@@ -12,24 +12,33 @@
     <link rel="stylesheet" href="../../css/checks.css">
     
 
-    <title>Estado de reseñas</title>
+    <title>Autenticación en dos pasos</title>
 </head>
 
 <body>
 
     <header>
-        <a href="Privacidad.html">
+        <a href="Seguridad.html">
             <img src="../../images/configuraciones/back.png">
         </a>
-        <h1>Estados de reseñas</h1>
+        <h1>Autenticación en dos pasos</h1>
     </header>
-<br>
+    <br>
 
-    <h3>Podrás visualizar cuantas 
-        personas han visto tu reseña:  </h3>
+    <h3>Elige cómo quieres recibir tu 
+        código de seguridad al momento 
+        de confirmar tu inicio de sesión  </h3>
 
     <div class="container">
-        <p>ESTADO DE RESEÑA</p>
+        <p>MENSAJE DE TEXTO</p>
+        <label class="switch" id="objeto">
+            <input type="checkbox" >
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="container">
+        <p>APP Google Authenticathor</p>
         <label class="switch" id="objeto">
             <input type="checkbox" >
             <span class="slider"></span>
@@ -60,7 +69,7 @@
             </li>
         </ul>
     </nav>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
