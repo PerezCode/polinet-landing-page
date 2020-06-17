@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAP-->
+   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+   <link rel="stylesheet" href="/src/css/agregarReseña.css">
+   <link
+     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap"
+     rel="stylesheet">
+
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!--HEADER-->
+    <div class="container-fluid titulos-principales py-5 mb-3">
+        <div class="row">
+          <div class="col col-10 offset-1 mb-5">
+            <h1>Agrega tu reseña</h1>
+            <p class="mt-2"></p>
+          </div>
+          <div class="rectangulo1"></div>
+          <div class="rectangulo2"></div>
+          <div class="rectangulo3"></div>
+          <div class="rectangulo4"></div>
+          <div class="rectangulo5"></div>
+          <div class="rectangulo6"></div>
+          <div class="rectangulo7"></div>
+        </div>
+      </div>
+
+     <div class="container col-md-6 formulario">
+        <form action="/src/subpaginas/reseñas/profileReseña.html" method="GET">
+            <div class="mt-5 text-center"> 
+                <label class="nombre">Nombre</label>
+                <input class="form-control mb-5" type="text" name="nombre" placeholder="Nombre" id="name">
+            </div>
+            <div class="letrilla text-center">
+                <label class="descripcion">Descripcion</label>
+            </div>
+            <h6>0/500</h6>
+            <textarea class="form-control" name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Describe tu experiencia (opcional)"></textarea>
+        </form>
+     </div>
+    
+     <nav class="navbarContainer">
+        <ul class="navbar m-0">
+          <li class="navbar__item mx-2 px-2 text-center active">
+            <a href="/src/home.html">
+              <img src="/src/images/navbarIcons/home.svg" alt="">
+            </a>
+          </li>
+          <li class="navbar__item mx-2 px-2 text-center">
+            <a href="/src/reseñas.html">
+              <img src="/src/images/navbarIcons/revision.svg" alt="">
+            </a>
+          </li>
+          <li class="navbar__item mx-2 px-2 text-center">
+            <a href="/src/objetosperdidos.html">
+              <img src="/src/images/navbarIcons/articulos-perdidos.svg" alt="">
+            </a>
+          </li>
+          <li class="navbar__item mx-2 px-2 text-center">
+            <a href="#">
+              <img src="/src/images/navbarIcons/ajustes.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+
+</html>

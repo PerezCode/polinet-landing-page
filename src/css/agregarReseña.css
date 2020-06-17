@@ -1,4 +1,3 @@
-
 * {
     font-family: "Open Sans", sans-serif;
   }
@@ -112,53 +111,37 @@
     height: 80px;
     transform: rotate(-3deg);
   }
-  
-  #person1 {
-    height: 100%;
-  }
-  
-  #person2 {
-    height: 100%;
-  }
-  
-  #person3 {
-    height: 100%;
-  }
-  
-  #person4 {
-    height: 100%;
-  }
-  
-  .card-title {
-    font-weight: bold;
-  }
-  
-  .card {
-    border-radius: 5px;
-    box-shadow: 0px 0px 6px 2px rgb(66, 66, 66);
-  }
 
-  #names{
+.nombre{
     color: #029757;
-    font-weight: bold;
-  }
+    font-weight: 700;
+    font-size: 30px;
+}
 
-  #titles{
+#name{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #acacac;
+}
+
+.descripcion{
     color: #029757;
-    font-weight: 900;
-  }
+    font-weight: 700;
+    font-size: 30px;
+}
 
-  .btn{
-    margin-left: 85%;
-  }
+.formulario h6{
+    color: #808080;
+}
 
-  .row{
-    margin: auto;
-  }
+ #descripcion{
+     width: 100%;
+     border: 1px solid #acacac;
+     border-radius: 8px;
+ }
 
-  /* barra de navegacion*/
-
-.navbarContainer {
+ /* NAVBAR */
+ .navbarContainer {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -185,19 +168,11 @@
 .navbar__item img {
   height: 100%;
 }
+
 .active {
   border-bottom: 2px solid white;
 }
 
-navbar img{
-    border-radius: 0%;
-}
-
-#letrilla{
-  color: white;
-}
-
-/* NAVBAR*/
 @media only screen and (max-width: 768px){
   main {
     margin-bottom: 50px;
@@ -207,5 +182,11 @@ navbar img{
   }
   .navbar {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1199px){
+  .notices {
+    justify-content: center;
   }
 }

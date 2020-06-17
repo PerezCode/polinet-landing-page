@@ -277,7 +277,7 @@ p{
   }
   
   .navbar {
-    width: 50%;
+    width: 100%;
     height: inherit;
     display: flex;
     align-items: center;
