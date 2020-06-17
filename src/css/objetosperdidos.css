@@ -66,6 +66,17 @@ main{
     color: white;
 } 
 
+#main a{
+    border: 1px solid black;
+    width: 80%;
+    background: #029757;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+} 
+
 #enviar{
     margin-left: 15px;
     background: white;
@@ -277,7 +288,7 @@ p{
   }
   
   .navbar {
-    width: 100%;
+    width: 50%;
     height: inherit;
     display: flex;
     align-items: center;

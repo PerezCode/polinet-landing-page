@@ -33,13 +33,13 @@ $(function(){
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <button class="objeto-encontrado" >Lo encontre</button>
+            <a type="button" href="/src/subpaginas/objetosPerdidos/notificacionPropietario.html">Lo encontre</a>
         </div>
     </div>
 </div>`     
         );
 
-        $(".objeto-encontrado").click(function(){
+        $(a).click(function(){
             location.href = "subpaginas/objetosPerdidos/notificacionPropietario.html?" + celular.toString() + "";
         })
 
