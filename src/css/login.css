@@ -1,0 +1,123 @@
+.titulos-principales {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  overflow: hidden;
+}
+.titulos-principales .row .col {
+  margin: 0;
+}
+.titulos-principales .row .col img {
+  position: relative;
+    left: 475px;
+    width: 15%;
+}
+#regresar{
+    float:left;
+    width:8%;
+    font-size:24px;
+    font-weight:bold;
+    color: #00B96A;
+    text-align:right;
+}
+.form .container .field .text-input{
+  width: 350px;
+}
+h1{
+
+  font-size: 55px;
+  color: #ffffff;
+  } 
+  h3{
+    font-size: 25px;
+  color: #ffffff;
+  }
+body {
+    background: #00B96A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+ 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+} 
+  
+[id=wrapper] {
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+}
+
+  .form .text-input, .form .textarea, .form .label, .form .button {
+    padding: 1em 1.5em;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: none;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-radius: 0;
+  }
+  
+  .form .text-input, .form .textarea {
+    font: inherit;
+    line-height: normal;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding-left: 0;
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    background: transparent;
+    outline: none;
+    color: black;
+  }
+  .form {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .form .container{
+    position: relative;
+    width: 86%;
+    margin-bottom: 1.5em;
+    float: left;
+    color: #ffffff;
+  }
+  .form .container .text-input{
+    color: #ffffff;
+  }
+  .form .btn {
+    background: #ffffff;
+    position: relative;
+    left: 200px;
+    width: auto;
+    color: #00B96A;
+  }
+  .form .textarea {
+    max-width: 100%;
+  }
+  footer{
+    width: 100%;
+    height: 60px;
+    background: white;
+    color: black;
+  }
+ footer .imagen{
+    position: relative;
+    left: 5px;
+    top: 5px;
+  }
